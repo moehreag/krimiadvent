@@ -5,7 +5,9 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+
+<?import javafx.scene.control.MenuButton?>
+<VBox fx:id ="layout" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="io.github.moehreag.krimiadvent.StartController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
@@ -14,4 +16,5 @@
     <Label fx:id="welcomeText" text="Krimiadvent"/>
     <Label fx:id="stageText" text=""/>
     <Button fx:id="button" text="Start!" onAction="#onStartButtonClick"/>
+    <Button fx:id="tip" text="Tip abgeben" onAction="#onTipButtonClick" visible ="false"/>
 </VBox>
