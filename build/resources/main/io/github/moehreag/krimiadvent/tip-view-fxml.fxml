@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id ="layout" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="io.github.moehreag.krimiadvent.StartController">
+
+    <RadioButton fx:id="person1">Person1</RadioButton>
+    <RadioButton fx:id="person2">Person2</RadioButton>
+
+    <spacing/>
+    <Button fx:id="finish">Prüfen</Button>
+    <Button fx:id="back">Zurück</Button>
+
+
+</VBox>

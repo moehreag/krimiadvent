@@ -6,7 +6,7 @@
 
 <?import javafx.scene.control.Button?>
 
-<?import javafx.scene.control.MenuButton?>
+
 <VBox fx:id ="layout" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="io.github.moehreag.krimiadvent.StartController">
     <padding>
